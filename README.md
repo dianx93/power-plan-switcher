@@ -161,7 +161,18 @@ return
 ---
 
 ## 📦 Releases
-For standalone use, download the latest version from the Releases tab.
+
+You can download the version that fits your needs:
+
+| Release Type     | Tag                  | Includes                           |
+|------------------|----------------------|------------------------------------|
+| 🔧 Script Only   | [`v1.0.0-script`](../../releases/tag/v1.0.0-script) | `.ahk` file + icons + README (for AutoHotkey users) |
+| 🚀 Standalone EXE| [`v1.0.0-exe`](../../releases/tag/v1.0.0-exe)       | `.exe` + icons (no AHK required)   |
+| 📚 Full Bundle    | [`v1.0.0-full`](../../releases/tag/v1.0.0-full)     | Script, EXE, icons, and README     |
+
+> 💡 [AutoHotkey Download](https://www.autohotkey.com) — required only if using the script version
+
+Each release includes your custom tray icons (rocket, scales, turtle) and is ready to use or modify. See [Setup](#-setup) and [Customization](#-customization) above for details.
 
 ---
 
