@@ -7,9 +7,9 @@ balancedGUID:= "381b4222-f694-41f0-9685-ff5bb260df2e"
 saverGUID   := "a1841308-3541-4fab-bc81-f71556f20b4a"
 
 ; Icon paths – update these paths as needed
-iconHigh    := "C:\Icons\icons8-rocket-16-outlined.ico"
-iconBalanced:= "C:\Icons\icons8-scales-16-outlined.ico"
-iconSaver   := "C:\Icons\icons8-turtle-16-outlined.ico"
+iconHigh    := A_ScriptDir "\icons\icons8-rocket-16-outlined.ico"
+iconBalanced:= A_ScriptDir "\icons\icons8-scales-16-outlined.ico"
+iconSaver   := A_ScriptDir "\icons\icons8-turtle-16-outlined.ico"
 
 ; Build the tray menu
 Menu, Tray, NoStandard
